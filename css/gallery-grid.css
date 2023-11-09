@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(to top, #65A0F1 0%, #E1E4E9 100%);
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 60px 0;
+}
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+	text-align: center;
+    min-height: 75vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+  .container {
+    width: 1200px;
+  }
+
+.gallery {
+	display: flex;
+    align-items: center;
+	
+}
+
+.pic {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
